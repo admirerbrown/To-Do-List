@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/58789452ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <h1>this is a new projects</h1>
-    <div class="quote">
-        "Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than
-        unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the
-        world is full of educated derelicts. The slogan 'Press On' has solved and always will solve the problems of the
-        human race." —Calvin Coolidge
+  <body>
+    <div class="todo-container">
+      <div class="title-div compact">
+        <p class="title-text">Today's To Do</p>
+        <i class="fa-solid fa-arrows-rotate"></i>
+      </div>
+
+      <div class="input-div compact">
+        <input
+          type="text"
+          class="todo-name"
+          placeholder="Add to your list ..."
+          maxlength="50"
+        />
+        <span class="material-symbols-outlined"> keyboard_return </span>
+      </div>
+
+      <div class="show-todos"></div>
+      <div class="remove-all compact">
+        <p class="clear-text">Clear all completed</p>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
