@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+}
+
+body {
+  background-color: #faf7f0;
+  display: flex;
+  justify-content: center;
+}
+
+.title-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-text {
+  font-size: 24px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-left-side {
+  display: flex;
+  gap: 10px;
+}
+
+.compact {
+  height: 50px;
+  border-bottom-color: #ececec;
+  padding: 20px;
+  align-items: center;
+  border-bottom-style: solid;
+}
+
+.todo-container {
+  width: 80%;
+  border: 2px solid #ececec;
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 3px 6px 5px 5px #ececec;
+}
+
+.todo-name {
+  height: 40px;
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.remove-all {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #faf7f0;
+}
+
+.clear-text {
+  color: #748da6;
+}
