@@ -57,6 +57,18 @@ body {
   outline: none;
 }
 
+.todo-title {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  max-width: 80ch;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 10px;
+  outline: none;
+}
+
 ::placeholder {
   font-style: italic;
 }
@@ -70,4 +82,12 @@ body {
 
 .clear-text {
   color: #748da6;
+}
+
+.del-btn {
+  display: none;
+}
+
+.add-to-list {
+  cursor: pointer;
 }

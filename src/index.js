@@ -1,33 +1,20 @@
-import './styles/style.css';
+/* eslint-disable no-loop-func */
+/* eslint-disable no-restricted-globals */
 
-const todoList = [
-  {
-    discription: 'wash the dishes',
-    completed: false,
-    index: 0,
-  },
-  {
-    discription: 'complete To Do list project',
-    completed: false,
-    index: 1,
-  },
-  {
-    discription: 'implement project code review suggestions',
-    completed: false,
-    index: 2,
-  },
-];
+import './styles/style.css';
+import editTask from './modules/update.js';
+import deleteManager from './modules/delete_todo.js';
+import addTaskManager from './modules/add_todo.js';
+import showToDoList from './modules/ui_processor.js';
+
+// call addTaskManager here ...
+addTaskManager();
 
 // process to do list to UI
-const showToDoList = () => {
-  const todoItem = document.querySelector('.show-todos');
-  todoItem.innerHTML += todoList.map((todo) => `<div class="todo-item compact">
-                <div class="todo-left-side">
-                    <input type="checkbox" id="complete" name="isDone" value="" />
-                    <p class="todo-title">${todo.discription}</p>
-                </div>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </div>`).join('');
-};
-
 showToDoList();
+
+// call delete function on this line..
+deleteManager();
+
+// call edit function here..
+editTask();
