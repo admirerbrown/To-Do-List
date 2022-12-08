@@ -61,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   height: 50px;
-  max-width: 50ch;
+  max-width: 80ch;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
