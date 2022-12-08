@@ -40,6 +40,13 @@ class TaskManager {
     localStorage.setItem('todos', JSON.stringify(oldTodoList));
     location.reload();
   };
+
+  isDone = (obj, objIndex) => {
+    const oldTaskStatus = JSON.parse(localStorage.getItem('todos'));
+    oldTaskStatus[objIndex] = obj;
+    localStorage.setItem('todos', JSON.stringify(oldTaskStatus));
+    location.reload();
+  }
 }
 
 export default TaskManager;

@@ -16,7 +16,8 @@ body {
 }
 
 .title-text {
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .input-div {
@@ -84,10 +85,20 @@ body {
   color: #748da6;
 }
 
+.clear-text:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+
 .del-btn {
   display: none;
 }
 
 .add-to-list {
   cursor: pointer;
+}
+
+#complete {
+  display: none;
 }
