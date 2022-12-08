@@ -24,7 +24,7 @@ class TaskManager {
       if (item.taskName !== task) {
         currentTodoList.push(item);
         for (let i = 0; i < currentTodoList.length; i += 1) {
-          item.taskIndex = i;
+          item.taskIndex = i + 1;
         }
       }
       return item;

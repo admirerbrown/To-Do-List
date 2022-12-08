@@ -15,7 +15,7 @@ const addTaskManager = () => {
     if (task.value) {
       const noteIndex = getTaskList.length;
 
-      const newTask = new TaskManager(task.value, noteIndex);
+      const newTask = new TaskManager(task.value, noteIndex + 1);
       getTaskList.push(newTask);
 
       // send todoList to localStorage
