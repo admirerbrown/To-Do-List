@@ -28,7 +28,7 @@
 # 📖 Todo List Project<a name="about-project"></a>
 
 **Minimalist To Do List Project** 
-"To-do list project" is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website. That website is already offline but you can still play with thanks to web.archive.org.
+is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website. That website is already offline but you can still play with thanks to web.archive.org.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[To do list Project](to come)
+[To do list Project](https://admirerbrown.github.io/To-Do-List/dist/.)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
